@@ -20,9 +20,12 @@ color: #fff;
 border:none;
 height: 3.2em;
 font-size:1.1em;
-
+&:active {
+        background-color: transparent; /* Define a cor de fundo como transparente quando clicado */
+    }
 }
 `
+
 export const BtnDiv = styled.div`
 background-color: black;
 display:flex;

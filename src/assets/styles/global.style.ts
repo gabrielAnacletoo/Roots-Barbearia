@@ -28,4 +28,14 @@ export default createGlobalStyle`
   filter: drop-shadow(5px 0 3px rgba(0, 0,0, 0.5));
 }
 
+.linkss{
+  text-decoration:none;
+  color: #FFF;
+}
+
+.linkss:hover{
+  text-decoration:none;
+  color: #FFF;
+}
+
 `
