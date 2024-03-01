@@ -5,6 +5,7 @@ import Fachada from "../../assets/images/backgrounds/fachada2.png";
 import Whatsapp from '../../assets/images/icons/whatsapp.png'
 import Rlogo from '../../assets/images/icons/letraR.png'
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 // fonts sora, red hah , popins
 export const StarterMenu = () => {
@@ -25,7 +26,13 @@ export const StarterMenu = () => {
         <Row>
           <Col>
             <D.DivBtnsMenu>
-              <D.BtnDiv>
+            <motion.div
+                initial={{ x: -400 }}
+                animate={{ x: 0 }}
+                transition={{ duration: 1, delay: 0.4 }}
+                style={{width: '100%'}}
+              >
+              <div className="BtnDiv">
               
               <Image src={Rlogo} className="netflix" rounded />
 
@@ -33,21 +40,37 @@ export const StarterMenu = () => {
                     <Link to="https://celcash.celcoin.com.br/landingpage312445/rootsbauru" className="linkss">Assinatura</Link>
                   
                 </Button>
-              </D.BtnDiv>
+              </div>
+            </motion.div>
 
-              <D.BtnDiv>
+            <motion.div
+                initial={{ x: -650 }}
+                animate={{ x: 0 }}
+                transition={{ duration: 1, delay: 0.4 }}
+                style={{width: '100%'}}
+              >
+              <div className="BtnDiv">
               <Image src={Fachada} className="Roots" rounded />
                 <Button className="my-1 BtnsFormated rounded-2">
                   <Link to="https://admin.frizzar.com.br/app/rootsbauru"  className="linkss">Agendar Horário</Link>
                 </Button>
-              </D.BtnDiv>
+              </div>
+              </motion.div>
 
-              <D.BtnDiv>
+
+              <motion.div
+                initial={{ x: -850 }}
+                animate={{ x: 0 }}
+                transition={{ duration: 1, delay: 0.4 }}
+                style={{width: '100%'}}
+              >
+              <div className="BtnDiv">
               <Image src={Whatsapp} className="Whats" rounded />
                 <Button className="my-1 BtnsFormated rounded-2">
                   Fale no Whatsapp
                 </Button>
-              </D.BtnDiv>
+              </div>
+              </motion.div>
             </D.DivBtnsMenu>
           </Col>
         </Row>
