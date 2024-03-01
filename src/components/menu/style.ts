@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const ImageFormated = styled.img`
 width:100%;
 height: auto;
-margin: 0 0 5% 10%;
+margin: 0 0 5% 8%;
 padding: 30% 0 0 0;
 object-fit: cover;
 `
