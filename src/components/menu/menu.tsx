@@ -67,7 +67,8 @@ export const StarterMenu = () => {
               <div className="BtnDiv">
               <Image src={Whatsapp} className="Whats" rounded />
                 <Button className="my-1 BtnsFormated rounded-2">
-                  Fale no Whatsapp
+                  <Link to="https://api.whatsapp.com/send?phone=5514997472854&text=Olá!%20gostaria%20de%20agendar%20um%20horário" className="linkss">Fale no Whatsapp</Link>
+                  
                 </Button>
               </div>
               </motion.div>
