@@ -26,12 +26,12 @@ export const StarterMenu = () => {
         <Row>
           <Col>
             <D.DivBtnsMenu>
-            <motion.div
+            {/* <motion.div
                 initial={{ x: -400 }}
                 animate={{ x: 0 }}
                 transition={{ duration: 1, delay: 0.4 }}
                 style={{width: '100%'}}
-              >
+              > */}
               <div className="BtnDiv">
               
               <Image src={Rlogo} className="netflix" rounded />
@@ -41,29 +41,29 @@ export const StarterMenu = () => {
                   
                 </Button>
               </div>
-            </motion.div>
+            {/* </motion.div> */}
 
-            <motion.div
+            {/* <motion.div
                 initial={{ x: -750 }}
                 animate={{ x: 0 }}
                 transition={{ duration: 1.1, delay: 0.5 }}
                 style={{width: '100%'}}
-              >
+              > */}
               <div className="BtnDiv">
               <Image src={Fachada} className="Roots" rounded />
                 <Button className="my-1 BtnsFormated rounded-2">
                   <Link to="https://admin.frizzar.com.br/app/rootsbauru"  className="linkss">Agendar Horário</Link>
                 </Button>
               </div>
-              </motion.div>
+              {/* </motion.div> */}
 
 
-              <motion.div
+              {/* <motion.div
                 initial={{ x: -1150 }}
                 animate={{ x: 0 }}
                 transition={{ duration: 1, delay: 0.6 }}
                 style={{width: '100%'}}
-              >
+              > */}
               <div className="BtnDiv">
               <Image src={Whatsapp} className="Whats" rounded />
                 <Button className="my-1 BtnsFormated rounded-2">
@@ -71,7 +71,7 @@ export const StarterMenu = () => {
                   
                 </Button>
               </div>
-              </motion.div>
+              {/* </motion.div> */}
             </D.DivBtnsMenu>
           </Col>
         </Row>
