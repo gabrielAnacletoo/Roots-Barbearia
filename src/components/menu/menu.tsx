@@ -1,5 +1,5 @@
 import { Image, Button, Container, Row, Col } from "react-bootstrap";
-import Logo from "../../assets/images/icons/roots.png";
+import Logo from "../../assets/images/backgrounds/final verde.png";
 import * as D from "./style";
 import Fachada from "../../assets/images/backgrounds/fachada2.png";
 import Whatsapp from '../../assets/images/icons/whatsapp.png'
@@ -44,9 +44,9 @@ export const StarterMenu = () => {
             </motion.div>
 
             <motion.div
-                initial={{ x: -650 }}
+                initial={{ x: -750 }}
                 animate={{ x: 0 }}
-                transition={{ duration: 1, delay: 0.4 }}
+                transition={{ duration: 1.1, delay: 0.5 }}
                 style={{width: '100%'}}
               >
               <div className="BtnDiv">
@@ -59,9 +59,9 @@ export const StarterMenu = () => {
 
 
               <motion.div
-                initial={{ x: -850 }}
+                initial={{ x: -1150 }}
                 animate={{ x: 0 }}
-                transition={{ duration: 1, delay: 0.4 }}
+                transition={{ duration: 1, delay: 0.6 }}
                 style={{width: '100%'}}
               >
               <div className="BtnDiv">

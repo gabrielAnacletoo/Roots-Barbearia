@@ -18,10 +18,11 @@ export default createGlobalStyle`
   }
 
   body {
-    background-image: url(${Fachada});
+    /* background-image: url(${Fachada});
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
+    background-color: black;
 }
 
 .imagem-com-sombra{
@@ -48,7 +49,7 @@ justify-content: space-between;
 width: 98%;
 border-radius: 5px;
 margin: 2% 0;
-box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+box-shadow: 0 0 10px rgba(42, 44, 48, 1);
 }
 
 .netflix {
