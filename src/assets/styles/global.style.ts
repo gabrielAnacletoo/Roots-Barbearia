@@ -49,7 +49,7 @@ justify-content: space-between;
 width: 98%;
 border-radius: 5px;
 margin: 2% 0;
-box-shadow: 0 0 10px rgba(56, 58, 61, 1);
+box-shadow: 0px 0px 15px rgba(56, 58, 61, 1);
 }
 
 .netflix {
