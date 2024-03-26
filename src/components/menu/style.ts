@@ -2,14 +2,14 @@ import styled from "styled-components";
 
 
 export const ImageFormated = styled.img`
-width:90%;
+width:45%;
 height: auto;
 margin: 0 0 5% 8%;
 padding: 10% 0 0 0;
 object-fit: cover;
 `
 export const DivBtnsMenu = styled.div`
-margin-top: 10%;
+margin-top: 20%;
 display:flex;
 flex-direction: column;
 align-items: center;
