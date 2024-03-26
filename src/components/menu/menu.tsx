@@ -5,7 +5,7 @@ import Fachada from "../../assets/images/backgrounds/fachada2.png";
 import Whatsapp from '../../assets/images/icons/whatsapp.png'
 import Rlogo from '../../assets/images/icons/letraR.png'
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
+//import { motion } from "framer-motion";
 
 // fonts sora, red hah , popins
 export const StarterMenu = () => {
